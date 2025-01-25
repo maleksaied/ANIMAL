@@ -1,0 +1,31 @@
+class Animal:
+    def __init__ (self,color,wight):
+
+       self.color=color
+       self.weight=0
+    def drink():
+        print("I drink water")
+class Cat(Animal):
+    def __init__ (self,name,cat_home):
+        self.name=name
+        self. cat_home= cat_home
+    def hello (self):
+        print(f"your name perfect Cat:{self.name}")
+
+cat1=Cat("SOCAR","garden")
+cat1.name="SOCAR"
+cat1.weight=1
+cat1.garden="AL_SALAM"
+cat1.hello()
+class Dog(Animal):
+    def __init__ (self,name,sholder):
+        self.name=name
+        self. sholde = sholder
+    def helloo (self):
+        print(f"your name perfect Dog:{self.name}")
+
+Dog1=Dog("Max","streets")
+Dog1.name="max"
+Dog1.age=23
+Dog1.weight=1.5
+Dog1.helloo()
